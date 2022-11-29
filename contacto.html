@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/aboutUs.css">
+  <link rel="stylesheet" href="./styles/contacto.css">
+                
+  <title>Durescargo</title>
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <img src="./images/logo.png" alt="">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./index.html#servicios">Servicios</a></li>
+          <li ><a href="./aboutUs.html">Quienes Somos</a></li>
+          <li class="active" ><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars burger-button"></i>
+      </div>
+  
+      <nav class="navegacion2 ">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./index.html#servicios">Servicios</a></li>
+          <li ><a href="./aboutUs.html">Quienes Somos</a></li>
+          <li class="active" ><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="contenedor">
+      <div class="texto">
+        <h1><span>Su pedido está en las</span> mejores manos</h1>
+      </div>
+    </div>
+  </header>
+  <section class="about">
+    <div class="texto">
+      <form action="enviar.php" method="post">
+        <h2>Solicitud<hr></h2>
+        <div class="bloque">
+          <div class="entrada">
+            <input type="text" name="name"  id="name" class="name" placeholder="Nombres"  required>
+          </div>
+          
+          <div class="entrada">
+            <input type="mail" name="mail" id="mail" class="mail" placeholder="Correo" required>
+          </div>
+          
+          <div class="entrada">
+            <input type="number" name="telefono" id="telefono" class="telefono" placeholder="Teléfono" required>
+          </div>
+
+          <div class="entrada ultima">
+            <textarea name="mensaje" id="mensaje" class="mensaje"  placeholder="Nota" rows="5"></textarea>
+            <label for="stopspam" class="escondido">Si ves esto no rellenes el campo</label>
+            <input name="stopspam" class="escondido" />
+            <button type="submit" >Enviar</button>
+          </div>
+
+        </div>
+      </form>
+     </div>
+   <div class="img">
+    <div class="fondo">
+      <img src="./images/contact/envio.png" alt="">
+      <button>Monitoreé su Carga</button>
+      <p><b>Ofrecemos servicio de monitoreo,</b> lo que permitira a nuestros clientes saber el estado de su pedido en tiempo real</p>
+    </div>
+   </div>
+ 
+  </section>
+  <section class="ubicacion">
+    <figure>
+      <img src="./images/img_iz.png" alt="">
+      <div class="mapa2">
+        <iframe id="mapa-google2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9560385635136!2d-79.9120704858942!3d-2.1704172378401565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6df2cf24fad3%3A0x26e64f9d94384a2c!2sOf.1A%2C%20Victor%20Emilio%20Estrada%20509%2C%20Guayaquil%20090302!5e0!3m2!1ses!2sec!4v1669670709433!5m2!1ses!2sec"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
+    </figure>
+    <div class="contacto">
+      <div class="texto">
+        
+        <h3>Contáctenos</h3>
+        <div class="dato">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Av.Victor Emilio Estrada 509 y las monjas.Of.1A.</p>
+        </div>
+        <div class="dato">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>10301 NW 108 Ave Suite Unit#2 Miami,<br> Fl 33178, USA TEL: 3052398628</p>
+        </div>
+        <div class="dato">
+          <i class="fas fa-envelope"></i>
+          <p>aresabala@dvcomex.com</p>
+        </div>
+        <div class="dato">
+          <div class="sub">
+            <i class="fab fa-whatsapp"></i>
+            <p>+593 98 958 3659</p>
+          </div>
+          <div class="sub">
+            <i class="fas fa-phone"></i>
+            <p>046013865</p>
+          </div>
+        </div>
+      </div>
+      <div class="mapa">
+        <div class="buttons">
+
+          <button class="selected" id="miami">WAREHOUSE EN MIAMI</button>
+          <button  id="guayaquil">OFICINA EN GUAYAQUIL</button>
+        </div>
+          <iframe id="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.04377524592!2d-80.37461598565797!3d25.868036610505865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bc86a4973f49%3A0x1a764b3fe6af100b!2s10301%20NW%20108th%20Ave%20Suite%20%232%2C%20Medley%2C%20FL%2033178%2C%20EE.%20UU.!5e0!3m2!1ses!2sec!4v1669698466949!5m2!1ses!2sec" width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="premios">
+  
+    <div class="iconos">
+      <div class="bloque1">
+        <img src="./images/aseaci.png" alt="">
+        <img src="./images/asolog.png" alt="">
+      </div>
+      <div class="logro">
+        <img src="./images/logro.png" alt="">
+      </div>
+      <div class="bloque2">
+        <img src="./images/basc.png" alt="">
+        <img src="./images/comercio.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="pre-footer">
+    <div class="logo">
+      <img src="./images/logo.png" alt="">
+    </div>
+    <div class="aliados">
+      <h3>Aliados Comerciales</h3>
+      <div class="iconos">
+        <img src="./images/dvcomex.png" alt="">
+        <img src="./images/cargoPlaneta.png" alt="">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="texto">
+      <h4>Todos los derechos reservados ©2022 - Agencia Digital Lecua</h4>
+    </div>
+    <div class="redes">
+      <a href="">Facebook</a>
+      <a href="">twitter</a>
+      <a href="">Instagram</a>
+    </div>
+  </footer>
+  
+</body>
+<script src="https://kit.fontawesome.com/276faf51c6.js" crossorigin="anonymous"></script>
+<script src="./js/mapa.js"></script>
+<script src="./js/menuHamburger.js"></script>
+</html>

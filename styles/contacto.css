@@ -1,0 +1,206 @@
+header {
+  background-image: url(../images/contact/hero-contact.png) !important;
+}
+@media (max-width: 810px) {
+  header {
+    background-image: url(../images/contact/hero-contactC.png) !important;
+  }
+}
+header .contenedor {
+  text-align: center;
+}
+header .contenedor .texto {
+  width: 100%;
+}
+header .contenedor .texto h1 {
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+}
+
+.about {
+  margin: 0 auto;
+}
+@media (max-width: 810px) {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 810px) {
+  .about .texto {
+    width: 100%;
+  }
+}
+.about .texto form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 60px auto;
+  width: 45%;
+}
+@media (max-width: 500px) {
+  .about .texto form {
+    width: 66%;
+  }
+}
+.about .texto form .bloque {
+  width: 100%;
+}
+.about .texto form h2 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.about .texto form h2 hr {
+  width: 80%;
+}
+@media (max-width: 500px) {
+  .about .texto form h2 hr {
+    width: 100%;
+  }
+}
+.about .texto form input, .about .texto form textarea {
+  width: 100%;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+}
+.about .texto form input::-webkit-input-placeholder, .about .texto form textarea::-webkit-input-placeholder {
+  color: #cdcdcd;
+}
+.about .texto form input::-moz-placeholder, .about .texto form textarea::-moz-placeholder {
+  color: #cdcdcd;
+}
+.about .texto form input:-ms-input-placeholder, .about .texto form textarea:-ms-input-placeholder {
+  color: #cdcdcd;
+}
+.about .texto form input::-ms-input-placeholder, .about .texto form textarea::-ms-input-placeholder {
+  color: #cdcdcd;
+}
+.about .texto form input::placeholder, .about .texto form textarea::placeholder {
+  color: #cdcdcd;
+}
+.about .texto form .ultima {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about .texto form button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #e01e26;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.about .img {
+  background-image: url(../images/contact/warehouse.png);
+  background-size: contain;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+@media (max-width: 810px) {
+  .about .img {
+    width: 100%;
+    background-image: url(../images/warehouse.png);
+    background-size: cover;
+  }
+}
+.about .img .fondo {
+  background: rgb(255, 24, 32);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(241, 8, 16)), color-stop(50%, rgba(241, 8, 16, 0.822)), color-stop(92%, rgba(241, 8, 16, 0.418)), to(transparent));
+  background: linear-gradient(180deg, rgb(241, 8, 16) 0%, rgba(241, 8, 16, 0.822) 50%, rgba(241, 8, 16, 0.418) 92%, transparent 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .img .fondo img {
+  width: 100px;
+  margin: 0;
+}
+@media (max-width: 810px) {
+  .about .img .fondo img {
+    margin: 50px auto;
+  }
+}
+.about .img .fondo button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 900;
+  font-size: 16px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #e01e26;
+  border: 0;
+  cursor: pointer;
+}
+.about .img .fondo p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.escondido {
+  margin-top: -5px !important;
+  margin-bottom: -4px !important;
+  opacity: 0 !important;
+  height: 0 !important;
+}
+
+.ubicacion .contacto {
+  width: 50%;
+}
+@media (max-width: 690px) {
+  .ubicacion .contacto .mapa {
+    width: 100%;
+  }
+}
+@media (max-width: 690px) {
+  .ubicacion .contacto .mapa .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}

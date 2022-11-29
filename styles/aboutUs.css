@@ -1,0 +1,185 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(../images/AboutUs/hero.png) !important;
+}
+@media (max-width: 810px) {
+  header {
+    background-image: url(../images/AboutUs/heroC.png) !important;
+  }
+}
+header .menu nav ul li hr {
+  width: 0;
+  border: 0px solid red;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0;
+  margin-top: 5px;
+  background-color: red;
+}
+header li:hover hr {
+  width: 100% !important;
+  height: 3px;
+}
+header .contenedor {
+  text-align: center;
+}
+header .contenedor .texto {
+  width: 100%;
+}
+header .contenedor .texto h1 {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+@media (max-width: 810px) {
+  header .contenedor .texto h1 {
+    margin-bottom: 0px;
+  }
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+}
+.about .img {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 810px) {
+  .about .img {
+    display: none;
+  }
+}
+.about .img img {
+  width: 70%;
+  margin: auto;
+}
+.about .texto {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 810px) {
+  .about .texto {
+    width: 80%;
+    margin: auto;
+  }
+}
+.about .texto h2 {
+  font-size: 46px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 10px;
+}
+@media (max-width: 810px) {
+  .about .texto h2 {
+    margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  .about .texto h2 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 350px) {
+  .about .texto h2 {
+    font-size: 32px;
+  }
+}
+.about .texto h2 hr {
+  width: 53%;
+  margin: 0;
+  margin-top: 10px;
+  border: 3px solid #ff1820;
+}
+@media (max-width: 810px) {
+  .about .texto h2 hr {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.about .texto p {
+  width: 70%;
+  text-align: justify;
+  font-size: 20px;
+}
+@media (max-width: 810px) {
+  .about .texto p {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .about .texto p {
+    width: 98%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 350px) {
+  .about .texto p {
+    font-size: 16px;
+  }
+}
+
+.warehouse {
+  background-image: url(../images/AboutUs/fondo.png);
+  background-size: cover;
+  background-position: 60% 50%;
+}
+.warehouse .fondo {
+  background: rgb(255, 24, 32);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(241, 8, 16, 0.89)), color-stop(50%, rgba(241, 8, 16, 0.822)), color-stop(88%, rgba(241, 8, 16, 0.418)), to(transparent));
+  background: linear-gradient(180deg, rgba(241, 8, 16, 0.89) 0%, rgba(241, 8, 16, 0.822) 50%, rgba(241, 8, 16, 0.418) 88%, transparent 100%);
+}
+.warehouse .fondo .titulo {
+  padding-top: 115px;
+}
+@media (max-width: 500px) {
+  .warehouse .fondo .titulo {
+    padding-top: 20px;
+  }
+}
+.warehouse .fondo .titulo h2 {
+  margin-bottom: 0;
+}
+.warehouse .fondo .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10%;
+}
+.warehouse .fondo .texto img {
+  margin: auto;
+  margin-top: 40px;
+  width: 200px;
+}

@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+span {
+  font-weight: bold;
+}
+
 header {
   background-image: url(../images/hero.png);
   background-size: cover;

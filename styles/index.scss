@@ -7,7 +7,9 @@ body{
   font-family: 'Gotham', sans-serif;
   overflow-x: hidden;
 }
-
+span{
+  font-weight: bold;
+}
 header{
   background-image: url(../images/hero.png);
   background-size: cover;

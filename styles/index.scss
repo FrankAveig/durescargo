@@ -49,15 +49,18 @@ header{
       }
       ul{
         display: flex;
+        a{
+          text-transform: uppercase;
+          text-decoration: none;
+          color: white;
         li{
+          
           margin: auto 15px;
           list-style: none;
           padding-bottom: 5px;
           font-weight: 500;
-          a{
-            text-transform: uppercase;
-            text-decoration: none;
-            color: white;
+         
+          
           }
         }
         li:hover{

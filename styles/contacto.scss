@@ -80,6 +80,9 @@ header{
     background-image: url(../images/contact/warehouse.png);
     background-size: contain;
     display: flex!important;
+    width: 50%;
+    height: 607px;
+        margin-top: 0;
     @media (max-width:810px) {
       width: 100%;
       background-image: url(../images/warehouse.png);
@@ -93,6 +96,7 @@ header{
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding: auto;
       img{
         width: 100px;
         margin: 0;
@@ -145,4 +149,7 @@ header{
       }
     }
   }
+}
+.premios{
+  margin-top: -3px;
 }

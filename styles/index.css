@@ -538,6 +538,73 @@ header .contenedor button {
   }
 }
 
+.img {
+  background-image: url(../images/warehouse.png);
+  background-size: contain;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  background-size: cover;
+  margin-top: -3px;
+  height: 100%;
+}
+.img .fondo {
+  background: rgb(255, 24, 32);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(241, 8, 16)), color-stop(50%, rgba(241, 8, 16, 0.822)), color-stop(92%, rgba(241, 8, 16, 0.418)), to(transparent));
+  background: linear-gradient(180deg, rgb(241, 8, 16) 0%, rgba(241, 8, 16, 0.822) 50%, rgba(241, 8, 16, 0.418) 92%, transparent 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 60px;
+}
+.img .fondo img {
+  width: 100px;
+  margin: 0;
+}
+@media (max-width: 810px) {
+  .img .fondo img {
+    margin: 50px auto;
+  }
+}
+.img .fondo button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 900;
+  font-size: 16px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #e01e26;
+  border: 0;
+  cursor: pointer;
+}
+.img .fondo p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+}
+@media (max-width: 900px) {
+  .img .fondo p {
+    width: 90%;
+  }
+}
+
 .ubicacion {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -769,17 +836,27 @@ header .contenedor button {
       -ms-flex-align: center;
           align-items: center;
   border-top: black 2px solid;
-  margin-top: -3px;
+}
+.premios figure {
+  width: 70px;
+  margin-left: 102px;
+}
+@media (max-width: 1000px) {
+  .premios figure {
+    margin-left: 40px;
+  }
+}
+.premios figure img {
+  width: 100%;
 }
 .premios .iconos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 60px;
 }
 @media (max-width: 970px) {
@@ -820,20 +897,13 @@ header .contenedor button {
 }
 .premios .iconos .logro {
   position: relative;
-  top: -50px;
-  margin-right: 15px;
 }
-@media (max-width: 970px) {
-  .premios .iconos .logro {
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    top: 0;
-    margin-right: 0;
-  }
+.premios .iconos .logro figure {
+  width: 100px !important;
+  margin: auto 40px auto 0;
+}
+.premios .iconos .logro figure img {
+  width: 100%;
 }
 .premios .iconos .logro img {
   width: 70px;
@@ -887,6 +957,9 @@ header .contenedor button {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -914,15 +987,11 @@ header .contenedor button {
 .pre-footer .iconos {
   margin-top: 0;
 }
-@media (max-width: 472px) {
+@media (max-width: 800px) {
   .pre-footer .iconos {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-}
-@media (max-width: 350px) {
-  .pre-footer .iconos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -933,7 +1002,7 @@ header .contenedor button {
   width: 150px;
   margin: auto 20px;
 }
-@media (max-width: 350px) {
+@media (max-width: 800px) {
   .pre-footer .iconos img {
     margin: 10px 20px;
   }

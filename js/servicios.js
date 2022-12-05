@@ -76,27 +76,38 @@ const cambio = (nombre)=>{
     break;
     case 2: 
     titulo.innerHTML = '02'
-    imagen.src= '../images/servicio2.png'
+    imagen.src= '../images/camion.png'
     servicio.innerHTML = 'Inspección, inventario, re-empaque y embalaje de cargas.'
-
     break;
     case 3: 
     titulo.innerHTML = '03'
+    servicio.innerHTML = 'Almacenamiento de carga orígen.'
+
     break;
     case 4: 
     titulo.innerHTML = '04'
+    servicio.innerHTML = 'Transporte internacional desde y hacia cualquier parte del mundo: Aéreo, marítimo, carga suelta y contenedor.'
+
     break;
     case 5: 
     titulo.innerHTML = '05'
+    servicio.innerHTML = 'Consolidación y desconsolidación de carga.'
+
     break;
     case 6: 
     titulo.innerHTML = '06'
+    servicio.innerHTML = 'Transporte y manejo de carga proyecto.'
+
     break;
     case 7: 
     titulo.innerHTML = '07'
+    servicio.innerHTML = 'Trámites locales y en orígen para exportación e importación.'
+
     break;
     case 8: 
     titulo.innerHTML = '08'
+    servicio.innerHTML = 'Despachos de Aduana.'
+
     break;
   }
 }

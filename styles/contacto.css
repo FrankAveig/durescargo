@@ -124,6 +124,9 @@ header .contenedor .texto h1 {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  width: 50%;
+  height: 607px;
+  margin-top: 0;
 }
 @media (max-width: 810px) {
   .about .img {
@@ -149,6 +152,7 @@ header .contenedor .texto h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: auto;
 }
 .about .img .fondo img {
   width: 100px;
@@ -203,4 +207,8 @@ header .contenedor .texto h1 {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.premios {
+  margin-top: -3px;
 }

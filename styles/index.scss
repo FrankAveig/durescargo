@@ -411,6 +411,61 @@ header{
 
 }
 
+.img{
+  background-image: url(../images/warehouse.png);
+  background-size: contain;
+  display: flex!important;
+  background-size: cover;
+margin-top: -3px;
+  height: 100%;
+
+
+  
+  .fondo{
+    background: rgb(255,24,32);
+    background: linear-gradient(180deg, rgb(241, 8, 16) 0%,rgba(241, 8, 16, 0.822)50%, rgba(241, 8, 16, 0.418) 92%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+
+    img{
+      width: 100px;
+      margin: 0;
+      @media (max-width:810px) {
+        margin: 50px auto;
+      }
+    }
+    button{
+      width: max-content;
+      padding: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: 900;
+      font-size: 16px;
+      margin-top: 15px;
+      text-transform: uppercase;
+      background-color:white;
+      color: #e01e26;
+      border: 0;
+      cursor: pointer;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      width: 50%;
+      @media (max-width:900px) {
+        width: 90%;
+      }
+    }
+  }
+
+}
+
+
 .ubicacion{
   display: flex;
   @media (max-width:1251px) {
@@ -566,16 +621,26 @@ header{
   flex-direction: column;
   align-items: center;
   border-top: black 2px solid;
-  margin-top: -3px;
+  figure{
+    width: 70px;
+    margin-left: 102px;
+    @media (max-width:1000px) {
+      margin-left: 40px;
+    }
+    img{
+      width: 100%;
+    }
+  }
   .iconos{
     display: flex;
     display: flex;
-    align-items: flex-end;
-    margin-top:60px;
+    align-items: center;
     margin-bottom:60px;
+    
     @media (max-width:970px) {
       flex-direction: column;
     }
+    
     .bloque1{
       @media (max-width:1110px) {
         display: flex;
@@ -595,14 +660,16 @@ header{
     }
     .logro{
       position: relative;
-      top: -50px;
-      margin-right: 15px;
-      @media (max-width:970px) {
-        order: -1;
-        align-self: center;
-        top: 0;
-        margin-right: 0;
+      figure{
+        width: 100px!important;
+        margin: auto 40px auto 0;
+
+        img{
+          width: 100%;
+
+        }
       }
+
       img{
         width: 70px;
       }
@@ -633,12 +700,14 @@ header{
       }
     }
   }
+
 }
 
 .pre-footer{
   background-color: #2f2f2f;
   display: flex;
   align-items: flex-end;
+  align-items: center;
   justify-content: space-evenly;
   padding: 45px;
   @media (max-width:810px) {
@@ -652,16 +721,16 @@ header{
     margin-bottom: 0;
   }
   .iconos{
-    @media (max-width:472px) {
+
+    @media (max-width:800px) {
       display: flex;
-      }
-    @media (max-width:350px) {
       flex-direction: column;
-    }
+      }
+
     img{
       width: 150px;
       margin: auto 20px;
-      @media (max-width:350px) {
+      @media (max-width:800px) {
         margin: 10px 20px;
       }
     }

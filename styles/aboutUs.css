@@ -57,6 +57,7 @@ header .contenedor .texto h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: rgba(255, 255, 255, 0);
 }
 @media (max-width: 810px) {
   .about .img {

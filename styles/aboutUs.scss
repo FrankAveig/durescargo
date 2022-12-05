@@ -53,6 +53,8 @@ header{
     width: 50%;
     display: flex; 
     justify-content: center;
+    background: rgba(255, 255, 255, 0);
+
     @media (max-width:810px) {
       display: none;
     }

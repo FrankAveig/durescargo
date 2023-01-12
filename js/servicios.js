@@ -71,12 +71,10 @@ const cambio = (nombre)=>{
   switch (nombre){
     case 1: 
     titulo.innerHTML = '01'
-    imagen.src= '../images/camion.png'
     servicio.innerHTML = 'Coordinación en orígen para manejo de cargas segun ley de Incortem vigente.'
     break;
     case 2: 
     titulo.innerHTML = '02'
-    imagen.src= '../images/camion.png'
     servicio.innerHTML = 'Inspección, inventario, re-empaque y embalaje de cargas.'
     break;
     case 3: 

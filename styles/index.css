@@ -950,7 +950,7 @@ header .contenedor button {
 }
 
 .pre-footer {
-  background-color: #2f2f2f;
+  background-color: rgba(112, 112, 112, 0.3607843137);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
